@@ -1,78 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    box-sizing: border-box; /* Incluye el borde y el relleno dentro del ancho y alto del elemento */
+    font-family: 'Arial', sans-serif; /* Define la fuente predeterminada como Arial */
+    color: black; /* Establece el color del texto */
+    height: 100%; /* Define la altura al 100% del contenedor */
+    width: 100%; /* Define el ancho al 100% del contenedor */
+    justify-content: center; /* Centra los elementos en el eje horizontal */
+    align-items: center; /* Centra los elementos en el eje vertical */
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #71052E;
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Estilo para el contenedor principal */
 .container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho del 100% del contenedor */
+    padding: 20px; /* Relleno de 20px alrededor del contenedor */
 }
 
+/* Estilo para el encabezado */
 header {
-    display: flex;
-    align-items: center;
-    padding: 20px 0;
+    display: flex; /* Usa flexbox para el diseño del encabezado */
+    align-items: center; /* Centra los elementos del encabezado verticalmente */
+    padding: 20px 0; /* Relleno vertical de 20px */
 }
 
+/* Estilo para la imagen de perfil */
 .profile-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-right: 20px;
+    width: 80px; /* Ancho de la imagen de perfil */
+    height: 80px; /* Altura de la imagen de perfil */
+    border-radius: 50%; /* Hace la imagen circular */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
 }
 
+/* Estilo para el título principal */
 h1 {
-    font-family: 'Creepster', cursive;
-    font-size: 2.5em;
+    font-family: 'Creepster', cursive; /* Define una fuente cursiva específica */
+    font-size: 2.5em; /* Tamaño de fuente grande */
 }
 
-.placeholder {
-    background: rgba(128, 0, 64, 0.8);
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    font-size: 1.5em;
-    text-align: center;
+/* Estilo para la sección introductoria */
+.intro {
+    background: rgba(128, 0, 64, 0.8); /* Fondo con transparencia */
+    padding: 20px; /* Relleno de 20px */
+    margin: 20px 0; /* Margen vertical de 20px */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 1.5em; /* Tamaño de fuente grande */
+    text-align: center; /* Centra el texto */
 }
 
+/* Estilo para la categoría */
 .category {
-    margin: 20px 0;
+    margin: 20px 0; /* Margen vertical de 20px */
 }
 
+/* Estilo para los títulos de las categorías */
 .category h2 {
-    font-family: 'Creepster', cursive;
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-family: 'Creepster', cursive; /* Define una fuente cursiva específica */
+    font-size: 2em; /* Tamaño de fuente grande */
+    margin-bottom: 10px; /* Margen inferior de 10px */
 }
 
+/* Estilo para los elementos de la categoría */
 .category-item {
-    background: linear-gradient(to right, #cc6600, #cc3300);
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: linear-gradient(to right, #cc6600, #cc3300); /* Fondo con degradado lineal */
+    padding: 20px; /* Relleno de 20px */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex; /* Usa flexbox para el diseño */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
 }
 
+/* Estilo para las imágenes de los elementos de la categoría */
 .category-item img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen */
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
 }
 
+/* Estilo para el texto dentro de los elementos de la categoría */
 .category-item span {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Tamaño de fuente mediano */
 }
